@@ -9,17 +9,17 @@ import SwiftUI
 import SwiftData
 @main
 struct SwiftDataExampleApp: App {
-    
-    let container: ModelContainer = {
-        let schema = Schema([Expense.self])
-        let container = try! ModelContainer(for: schema, configurations: [])
-        return container
-    }()
+//    (OUTRA MANEIRA DE SE FAZER)
+//    let container: ModelContainer = {
+//        let schema = Schema([Expense.self])
+//        let container = try! ModelContainer(for: schema, configurations: [])
+//        return container
+//    }()
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(container)
-        //.modelContainer(for: [Expense.self]) (OUTRA MANEIRA DE SE FAZER)
+      //  .modelContainer(container)
+        .modelContainer(for: [Expense.self])
     }
 }

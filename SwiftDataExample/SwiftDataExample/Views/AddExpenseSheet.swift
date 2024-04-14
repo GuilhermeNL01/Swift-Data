@@ -33,7 +33,8 @@ struct AddExpenseSheet: View {
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button("Save") {
                         let expense = Expense(name: name, date: date, value: value)
-                        
+                        context.insert(expense)
+                        dismiss()
                     }
                 }
             }

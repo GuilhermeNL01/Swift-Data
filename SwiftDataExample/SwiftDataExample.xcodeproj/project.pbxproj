@@ -14,6 +14,7 @@
 		409E40192BC9A770007E4BD4 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E40182BC9A770007E4BD4 /* Expense.swift */; };
 		409E401B2BC9AE2A007E4BD4 /* AddExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E401A2BC9AE2A007E4BD4 /* AddExpenseSheet.swift */; };
 		409E40212BC9AEFE007E4BD4 /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E40202BC9AEFE007E4BD4 /* ExpenseCell.swift */; };
+		40A2C0A92BCB8C5400099DB9 /* UpdateExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2C0A82BCB8C5400099DB9 /* UpdateExpenseSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		409E40182BC9A770007E4BD4 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		409E401A2BC9AE2A007E4BD4 /* AddExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheet.swift; sourceTree = "<group>"; };
 		409E40202BC9AEFE007E4BD4 /* ExpenseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
+		40A2C0A82BCB8C5400099DB9 /* UpdateExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpenseSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				409E400C2BC9A728007E4BD4 /* ContentView.swift */,
 				409E401A2BC9AE2A007E4BD4 /* AddExpenseSheet.swift */,
 				409E40202BC9AEFE007E4BD4 /* ExpenseCell.swift */,
+				40A2C0A82BCB8C5400099DB9 /* UpdateExpenseSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				409E40192BC9A770007E4BD4 /* Expense.swift in Sources */,
 				409E400D2BC9A728007E4BD4 /* ContentView.swift in Sources */,
 				409E40212BC9AEFE007E4BD4 /* ExpenseCell.swift in Sources */,
+				40A2C0A92BCB8C5400099DB9 /* UpdateExpenseSheet.swift in Sources */,
 				409E401B2BC9AE2A007E4BD4 /* AddExpenseSheet.swift in Sources */,
 				409E400B2BC9A728007E4BD4 /* SwiftDataExampleApp.swift in Sources */,
 			);
